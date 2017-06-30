@@ -29,7 +29,7 @@ def get_label(hit_obj):
 def get_ingredients(hit_obj):
     d = []
     for item in hit_obj['ingredientLines']:
-        d.append(value)
+        d.append(item)
     return d
 
 
